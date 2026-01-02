@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Two Column Layout</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;              
+            gap: 20px;                  
+            padding: 20px;
+        }
+
+        .text {
+            flex: 1;                    
+        }
+
+        .image {
+            flex: 1;                   
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Left Column -->
+    <div class="text">
+        <h2>About Nature</h2>
+        <p>
+            Nature is beautiful and peaceful.
+            It gives us fresh air and happiness.
+            Protecting nature is our responsibility.
+        </p>
+    </div>
+
+    <!-- Right Column -->
+    <div class="image">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg"
+             alt="Nature Image">
+    </div>
+
+</div>
+
+</body>
+</html>

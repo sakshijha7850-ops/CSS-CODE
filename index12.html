@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Left to Right Animation</title>
+
+    <style>
+        body {
+            padding: 50px;
+        }
+
+        .box {
+            width: 120px;
+            padding: 15px;
+            background-color: green;
+            color: white;
+            text-align: center;
+            position: relative;
+            animation: moveRight 3s infinite;
+        }
+
+        @keyframes moveRight {
+            from {
+                left: 0;
+            }
+            to {
+                left: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">Move Me</div>
+
+</body>
+</html>

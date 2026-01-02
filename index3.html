@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            background-color: rgb(235, 221, 221);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 40%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Name -->
+    <h1>My Profile</h1>
+
+    <!-- Photo -->
+    <img src="photo.jpg" alt="My Photo" width="150">
+
+    <!-- About Me -->
+    <h2>About Me</h2>
+    <p>
+        I am a student learning web development.
+        I enjoy creating simple and clean webpages.
+    </p>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C Programming</li>
+    </ul>
+
+    <!-- Education -->
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>School</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>12th</td>
+            <td>ABC School</td>
+            <td>2025</td>
+        </tr>
+    </table>
+
+    <!-- Contact Form -->
+    <h2>Contact Me</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Message:</label>
+        <textarea placeholder="Enter your message" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+</body>
+</html>

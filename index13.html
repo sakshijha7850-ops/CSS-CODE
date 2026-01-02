@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;   /* Desktop ke liye large text */
+        }
+
+        p {
+            font-size: 20px;   /* Desktop ke liye */
+        }
+
+        /* 📱 Mobile screen ke liye */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 22px;   /* Mobile pe small */
+            }
+
+            p {
+                font-size: 14px;   /* Mobile pe small */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Responsive Webpage</h1>
+    <p>
+        Screen size ke hisaab se text size change hota hai.
+        Mobile par text chhota aur desktop par bada dikhega.
+    </p>
+
+</body>
+</html>
